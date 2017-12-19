@@ -8,7 +8,7 @@ class FeatureOne extends Component {
         <img className="screen" src='./screenone1.gif' />
         <div className="side-text">
           <h1>BrewMetrics for iOS</h1>
-          <p>BrewMetrics mesures the logistics of your beer drinking habbits and the habbits of your friends.</p>
+          <p>BrewMetrics measures the logistics of your beer drinking habits and the habits of your friends.</p>
           <p>Update you beverages in real time and keep track of money spent, drinks had, and your current drunken status.</p>
           <h3>Built in React Native | GitHub</h3>
         <br></br>

@@ -1,0 +1,15 @@
+.BrewMetrics {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-container2 {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 120px;
+  padding-top: 150px;
+}

@@ -5,8 +5,9 @@ class Contact extends Component {
   render() {
     return (
       <div className="BrewMetrics">
-        <div className='feature-container'>
-          <p>Contats</p>
+        <div className='feature-container2'>
+          <p>Contact Info Placeholder</p>
+
         </div>
       </div>
     );
