@@ -15,15 +15,11 @@ class BrewMetrics extends Component {
 
     return (
       <div className="BrewMetrics">
-        <OverScroll slides={pages.length} factor={2}>
-          {(page, progress) => (
-            <div>
-              <section>
-                {pages[page]}
-              </section>
-            </div>
-          )}
-        </OverScroll>
+        <div className='feature-container'>
+          <OverScroll slides={pages.length} factor={2}>
+            {(page, progress) => (pages[page])}
+          </OverScroll>
+        </div>
       </div>
     );
   }
