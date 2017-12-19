@@ -8,8 +8,8 @@ class SideBar extends Component {
       <div className='header'>
         <h1>Michael Lane</h1>
         <ul>
-          <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/">My Work</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
     );
