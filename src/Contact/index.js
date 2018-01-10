@@ -15,7 +15,7 @@ class Contact extends Component {
         </div>
           <div className="icons">
             <a target="_gitHub" href="https://github.com/Mikeydlane"><img className="icon" src='./github-logo.svg' /></a>
-            <a target="_linkedIn" href="https://www.linkedin.com/in/michael-lane-7786a336/"><img className="icon" src='./linkedin-button.svg' /></a>
+            <a target="_linkedIn" href="https://www.linkedin.com/in/mikeydlane/"><img className="icon" src='./linkedin-button.svg' /></a>
             <a target="_emial" href="mailto:mikeyd.lane@gmail.com"><img className="icon" src='./mail-black-envelope-symbol.svg' /></a>
             <a target="_phone" href="tel:6083342578"><img className="icon" src='./phone.svg' /></a>
           </div>
