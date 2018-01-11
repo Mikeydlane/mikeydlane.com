@@ -4,7 +4,7 @@ import {
   Route,
 } from 'react-router-dom'
 import BrewMetrics from './BrewMetrics/BrewMetrics';
-import Contact from './Contact';
+import ContactPage from './Contact';
 import SideBar from './SideBar';
 import './App.css';
 
@@ -15,7 +15,7 @@ class App extends Component {
         <div className="App">
           <SideBar />
           <Route exact path="/" component={BrewMetrics} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/contact" component={ContactPage} />
         </div>
       </Router>
     );
