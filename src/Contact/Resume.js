@@ -5,7 +5,10 @@ class Resume extends Component {
   render() {
     return (
       <div className="ContactFeature">
-        <img className="resume" src='./MichaelLaneResume18.png' />
+        <div className="resumeft">
+          <img className="resume" src='./MichaelLaneResume18.png' />
+          <a target="_resume" href="./MichaelLaneResume18.pdf"><p>download .pdf</p></a>
+        </div>
       </div>
     );
   }

@@ -6,7 +6,10 @@ import {
 import BrewMetrics from './BrewMetrics/BrewMetrics';
 import ContactPage from './Contact';
 import SideBar from './SideBar';
+import OurTable from './OurTable/OurTable';
+import Neuport from './Neuport/Neuport';
 import './App.css';
+
 
 class App extends Component {
   render() {
@@ -16,6 +19,8 @@ class App extends Component {
           <SideBar />
           <Route exact path="/" component={BrewMetrics} />
           <Route exact path="/contact" component={ContactPage} />
+          <Route exact path="/ourtable" component={OurTable} />
+          <Route exact path="/neuport" component={Neuport} />
         </div>
       </Router>
     );

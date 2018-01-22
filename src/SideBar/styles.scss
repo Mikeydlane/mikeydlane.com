@@ -6,8 +6,16 @@
   flex-direction: column;
   flex: 0 0 auto;
   position: fixed;
+  font-family: helvetica;
+  font-size: 14px;
   h1 {
     margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  h3 {
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: 400;
   }
 }
 
@@ -18,7 +26,7 @@ ul {
 }
 
 li {
-  margin: 20px 0;
+margin: 0 1px;
 }
 
 li a {
@@ -32,4 +40,18 @@ li a {
   &:hover {
     color: #666;
   }
+}
+
+.min-link a {
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: 300;
+}
+
+.top-link {
+  margin-top: 0px
+}
+
+.bottom-link {
+  margin-top: 20px;
 }
