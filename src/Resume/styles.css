@@ -1,0 +1,89 @@
+.contact {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.pic {
+  margin-top: 30px;
+  border-radius: 50%;
+  margin-right: 40px;
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+
+}
+
+.feature-container2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 65px;
+  margin-right: 65px;
+  padding-top: 55px;
+}
+
+.feature-container2 h3 {
+  font-weight: normal;
+
+}
+
+.feature-container2 h2 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.text {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.text h3 {
+  font-size: 18px;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+.icons {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.icon {
+  height: 35px;
+  width: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.resumeft1 {
+  margin-left: 450px;
+  text-align: center;
+
+}
+
+.ContactFeature {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  max-width: 1000px;
+  padding: 20px;
+  opacity: 1;
+  animation: fade-in 0.6s ease-in;
+  justify-content: center;
+  text-align: center
+  /* margin-left: 70px; */
+}
+
+.resume1 {
+  width: auto;
+  height: 90vh;
+}

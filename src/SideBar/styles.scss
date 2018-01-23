@@ -17,6 +17,10 @@
     font-size: 14px;
     font-weight: 400;
   }
+  h1 a {
+    text-decoration: none;
+    color: #000;
+  }
 }
 
 
@@ -27,6 +31,7 @@ ul {
 
 li {
 margin: 0 1px;
+margin-bottom: 1px;
 }
 
 li a {
@@ -46,10 +51,11 @@ li a {
   font-size: 18px;
   padding-bottom: 10px;
   font-weight: 300;
+
 }
 
 .top-link {
-  margin-top: 0px
+  margin-top: 0px;
 }
 
 .bottom-link {

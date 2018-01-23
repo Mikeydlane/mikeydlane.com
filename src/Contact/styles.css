@@ -11,7 +11,7 @@
   margin-top: 30px;
   border-radius: 50%;
   margin-right: 40px;
-  /* -webkit-filter: grayscale(100%); 
+  /* -webkit-filter: grayscale(100%);
   filter: grayscale(100%); */
 
 }
@@ -78,4 +78,13 @@
   opacity: 1;
   animation: fade-in 0.6s ease-in;
   /* margin-left: 70px; */
+}
+
+.email-form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 200px;
+
 }

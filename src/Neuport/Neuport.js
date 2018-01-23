@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import OverScroll from 'react-over-scroll';
 import FeatureOne from './FeatureOne';
+import FeatureTwo from './FeatureTwo';
 import './Neuport.css';
 
 class Neuport extends Component {
   render() {
     const pages = [
-      <FeatureOne />
+      <FeatureOne />,
+      <FeatureTwo />
     ]
 
     return (

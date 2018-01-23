@@ -5,6 +5,8 @@ import {
 } from 'react-router-dom'
 import BrewMetrics from './BrewMetrics/BrewMetrics';
 import ContactPage from './Contact';
+import Resume from './Resume/Resume';
+import Email from './Email';
 import SideBar from './SideBar';
 import OurTable from './OurTable/OurTable';
 import Neuport from './Neuport/Neuport';
@@ -21,6 +23,8 @@ class App extends Component {
           <Route exact path="/contact" component={ContactPage} />
           <Route exact path="/ourtable" component={OurTable} />
           <Route exact path="/neuport" component={Neuport} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/email" component={Email} />
         </div>
       </Router>
     );

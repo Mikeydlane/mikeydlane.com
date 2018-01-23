@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import OverScroll from 'react-over-scroll';
 import FeatureOne from './FeatureOne';
+import FeatureTwo from './FeatureTwo';
+import FeatureThree from './FeatureThree';
 import './OurTable.css';
 
 class OurTable extends Component {
   render() {
     const pages = [
-      <FeatureOne />
+      <FeatureOne />,
+      <FeatureTwo />,
+      <FeatureThree />
     ]
 
     return (
