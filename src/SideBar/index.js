@@ -9,13 +9,13 @@ class SideBar extends Component {
         <h1><Link to="/Contact">MICHAEL LANE</Link></h1>
         <h3>FULL STACK WEB DEVELOPER</h3>
         <ul>
-          <li className="top-link"><Link to="/brewmetrics">MY WORK</Link></li>
+          <li className="top-link">MY WORK</li>
             <ul className="min-link">
               <li><Link to="/brewmetrics">BrewMetrics</Link></li>
               <li><Link to="/ourtable">OurTable</Link></li>
               <li><Link to="/Neuport">Neuport</Link></li>
             </ul>
-          <li className="bottom-link"><Link to="/contact">CONTACT</Link></li>
+          <li className="bottom-link">CONTACT</li>
             <ul className="min-link">
               <li><Link to="/resume">Resume</Link></li>
               <li><Link to="/email">Email</Link></li>
