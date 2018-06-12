@@ -6,8 +6,8 @@ class Resume extends Component {
     return (
       <div className="ContactFeature">
         <div className="resumeft">
-          <img className="resume" src='./MichaelLaneResume18.png' />
-          <a target="_resume" href="./MichaelLaneResume18.pdf"><p>download .pdf</p></a>
+          <img className="resume" src='./MichaelLaneResume2018.png' />
+          <a target="_resume" href="./MichaelLaneResume2018.pdf"><p>download .pdf</p></a>
         </div>
       </div>
     );
