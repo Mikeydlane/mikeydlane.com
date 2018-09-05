@@ -12,14 +12,14 @@ class SideBar extends Component {
         <ul>
           <li className="top-link">MY WORK</li>
             <ul className="min-link">
-              <li><Link to="/brewmetrics">BrewMetrics</Link></li>
-              <li><Link to="/ourtable">OurTable</Link></li>
-              <li><Link to="/Neuport">Neuport</Link></li>
+              <li><Link to="/brewmetrics">BREWMETRICS</Link></li>
+              <li><Link to="/ourtable">OURTABLE</Link></li>
+              <li><Link to="/Neuport">NEUPORT</Link></li>
             </ul>
           <li className="bottom-link">CONTACT</li>
             <ul className="min-link">
-              <li><Link to="/resume">Resume</Link></li>
-              <li><Link to="/email">Email</Link></li>
+              <li><Link to="/resume">RESUME</Link></li>
+              <li><Link to="/email">EMAIL</Link></li>
             </ul>
         </ul>
       </div>

@@ -24,6 +24,8 @@
 
   .UX {
     margin-top: -12px;
+    font-weight: 300;
+    font-size: 14.5px
   }
 }
 
@@ -33,12 +35,14 @@
 ul {
   list-style-type: none;
   padding-left: 0;
+  font-family: helvetica;
 }
 
 li {
 margin: 0 1px;
 margin-bottom: 1px;
-font-size: 20px;
+font-size: 17px;
+font-family: helvetica;
 }
 
 li a {
@@ -55,7 +59,7 @@ li a {
 }
 
 .min-link a {
-  font-size: 18px;
+  font-size: 14px;
   padding-bottom: 10px;
   font-weight: 300;
 
