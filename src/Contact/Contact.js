@@ -10,6 +10,7 @@ class Contact extends Component {
         <div className="contact">
           <div className='feature-container2'>
           <div className="text">
+            <h1 className="title">ENGINEERING & DESIGN</h1>
             <h3>I am a Full Stack Web Developer with an eye for design. I pride myself on my ability to consistently expand my coding skills and stay on top of current design trends. Great code needs great design.</h3>
             <h3>My varied background in music, fashion, and design has equipped me with the skills necessary to work in any environment. I am highly responsive to client needs and am committed to helping people realize their vision.</h3>
             <br></br>

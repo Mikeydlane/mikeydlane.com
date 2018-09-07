@@ -11,6 +11,7 @@
   h1 {
     margin-bottom: 0px;
     padding-bottom: 0px;
+
   }
   h3 {
     margin-top: 1px;
@@ -20,6 +21,9 @@
   h1 a {
     text-decoration: none;
     color: #000;
+    &:hover {
+      color: #4C177D;
+    }
   }
 
   .UX {
@@ -48,14 +52,14 @@ font-weight: 500;
 
 li a {
   text-decoration: none;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 400;
   color: #333;
   &:visited {
     color: #333;
   }
   &:hover {
-    color: #666;
+    color: #4C177D;
   }
 }
 
