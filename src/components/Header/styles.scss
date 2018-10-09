@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 140px;
+}
+
+/* ===== LOGO ===== */
+
+.logo-container {
+  padding: 10px;
+}
+
+.logo {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+}
+
+.logo a {
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.logo-sub {
+  font-size: 31px;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-sub-sub {
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: 4.4px;
+  padding: 0;
+  margin: 0;
+}
+
+/* ===== MENU ===== */
+
+.menu {
+  list-style-type: none;
+
+  li {
+    float: left;
+    margin: 0 15px;
+
+    a {
+      font-weight: 200;
+      font-size: 22px;
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}

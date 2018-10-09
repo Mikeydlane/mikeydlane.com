@@ -1,7 +1,19 @@
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
 .App {
   display: flex;
   flex: 1 1 auto;
-  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex: 1;
 }
 
 .App-logo {
@@ -17,7 +29,7 @@
   font-size: large;
   text-align: left;
   margin-top: 0px;
-  
+
 }
 
 @keyframes App-logo-spin {
