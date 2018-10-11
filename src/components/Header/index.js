@@ -9,7 +9,7 @@ export default class Header extends Component {
         <div className='logo-container'>
           <h1 className='logo'><Link to="/Contact">MICHAEL LANE</Link></h1>
           <h3 className='logo-sub'>WEB DEVELOPER</h3>
-          <h3 className="logo-sub-sub">UX DESIGNER</h3>
+          <h3 className="logo-sub-sub">UX/UI DESIGNER</h3>
         </div>
 
         <ul className='menu'>
