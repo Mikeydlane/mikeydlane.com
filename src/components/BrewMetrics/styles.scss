@@ -1,16 +1,59 @@
-.brewmetrics {
-  background-color: #f0ba23;
-  padding: 75px;
-  height: 300px;
-  width: 90%;
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
 
-  .title {
-    margin: 0;
-    color: red;
+.brewmetrics {
+  font-family: 'Arvo', serif;
+  background-color: #f0ba23;
+  height: 300px;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+
+  .container {
+    display: flex;
+    padding: 25px 50px;
   }
 
-  p {
-    font-weight: 200;
-    font-size: 26px;
+  .slide-info {
+    width: 58%;
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      flex: 1 1 auto;
+      align-items: center;
+      margin-left: 40px;
+
+      .brew-logo {
+        height: 100px;
+        width: 100px;
+      }
+
+      .title {
+        font-size: 50px;
+        margin: 0;
+        color: #000;
+        letter-spacing: 4px;
+      }
+    }
+
+    p {
+      width: 75%;
+      padding-left: 60px;
+      display: flex;
+      flex: 1 1 auto;
+      font-weight: 200;
+      font-size: 26px;
+      color: #fff;
+    }
+  }
+
+  .slide-img {
+    width: 23%;
+
+    .bm-img {
+      width: 330px;
+    }
   }
 }

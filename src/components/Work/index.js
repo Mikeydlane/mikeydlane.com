@@ -8,6 +8,33 @@ import './styles.scss';
 
 
 export default class Work extends Component {
+  constructor(props) {
+    super();
+    this.state = {
+      sliderInitialized: false
+    }
+  }
+
+  initSlider = (slider) => {
+    this._slider = slider;
+    this.setState({ sliderInitialized: true })
+  }
+
+  renderControls = () => {
+    if (this.state.sliderInitialized) {
+      return (
+        <div>
+          <div className='control-left' onClick={() => this._slider.slickPrev()}>
+            <img src='/arrow-l.png' />
+          </div>
+          <div className='control-right' onClick={() => this._slider.slickNext()}>
+            <img src='/arrow-r.png' />
+          </div>
+        </div>
+      );
+    } else return null;
+  }
+
   render() {
     const settings = {
       dots: true,
@@ -20,10 +47,11 @@ export default class Work extends Component {
 
     return (
       <div className='work'>
-        <Slider {...settings}>
-          <img src='/tmp/Brewmetrics.png' />
+        <Slider ref={this.initSlider} {...settings}>
+          <BrewMetrics />
           <img src='/tmp/image.png' />
         </Slider>
+        {this.renderControls()}
       </div>
     );
   }
