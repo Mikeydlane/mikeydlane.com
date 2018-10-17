@@ -3,6 +3,8 @@ import Slider from 'react-slick';
 
 import BrewMetrics from '../BrewMetrics';
 import Upright from '../Upright';
+import Treble from '../Treble';
+import Ponder from '../Ponder';
 
 import './styles.scss';
 
@@ -25,10 +27,10 @@ export default class Work extends Component {
       return (
         <div>
           <div className='control-left' onClick={() => this._slider.slickPrev()}>
-            <img src='/arrow-l.png' />
+            <img src='/arrow-l-black.png' />
           </div>
           <div className='control-right' onClick={() => this._slider.slickNext()}>
-            <img src='/arrow-r.png' />
+            <img src='/arrow-r-black.png' />
           </div>
         </div>
       );
@@ -49,7 +51,9 @@ export default class Work extends Component {
       <div className='work'>
         <Slider ref={this.initSlider} {...settings}>
           <BrewMetrics />
-          <img src='/tmp/image.png' />
+          <Upright />
+          <Treble />
+          <Ponder />
         </Slider>
         {this.renderControls()}
       </div>

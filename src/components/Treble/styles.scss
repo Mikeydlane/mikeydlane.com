@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
 @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900');
-.brewmetrics {
-  font-family: 'Arvo', serif;
-  background-color: #f0ba23;
+
+.treble {
+  font-family: 'Muli', serif;
+  background-color: #EE0521;
   height: 450px;
   width: 100%;
+  max-width: 2000px;
   position: relative;
   display: flex;
   margin: 0 auto;
@@ -24,49 +26,69 @@
       align-items: center;
       margin-left: 40px;
 
-
-      .brew-logo {
-        height: 100px;
-        width: 100px;
+      .treble-logo {
+        height: 55px;
+        width: 60px;
       }
 
       .title {
-        font-size: 60px;
+        font-size: 70px;
+        font-weight: 900;
         margin: 0;
         color: #000;
-        letter-spacing: 12px;
+        letter-spacing: 1px;
         padding-left: 20px;
+      }
+
+      .treblearnbttn {
+        margin-bottom: 50px;
+        text-align: left;
+      }
+
+      .biglogo {
+        margin: 0px;
+        padding-bottom: 300px;
       }
     }
 
-
+    .toptext {
+      font-size: 60px;
+      font-weight: bolder;
+      width: 100%;
+      padding-left: 300px;
+      text-align: right;
+      margin: 0px;
+    }
 
     p {
       width: 75%;
-      padding-left: 100px;
+      padding-left: 480px;
       display: flex;
       flex: 1 1 auto;
       font-weight: 200;
-      font-size: 28px;
+      font-size: 26px;
       color: #fff;
-      font-family: 'helvetica', 'sans-serif'
+      text-align: right;
+
     }
 
     .role {
       font-family: 'muli', 'serif';
       font-weight: bold;
-      font-size: 28px;
-      padding-right: 400px;
-      padding-top: 80px;
-      width: 80%;
+      text-align: right;
+      padding-left: 650px;
+
+
     }
+
+
   }
 
   .slide-img {
     width: 23%;
 
     .bm-img {
-      width: 275px;
+      width: 330px;
     }
   }
 }

@@ -1,16 +1,94 @@
-.upright {
-  background-color: #fff;
-  padding: 75px;
-  height: 300px;
-  width: 100%;
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900');
 
-  .title {
-    margin: 0;
-    color: red;
+.upright {
+  font-family: 'Muli', serif;
+  background-color: #fff;
+  height: 450px;
+  width: 100%;
+  max-width: 2000px;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  padding: 30px;
+
+  .container {
+    display: flex;
+    padding: 25px 50px;
   }
 
-  p {
-    font-weight: 200;
-    font-size: 26px;
+  .slide-info {
+    width: 90%;
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      flex: 1 1 auto;
+      align-items: center;
+      margin-left: 10px;
+
+      .upright-logo {
+        height: 100px;
+        width: auto;
+
+      }
+
+      .title {
+        font-size: 70px;
+        font-weight: 900;
+        margin: 0;
+        color: #000;
+        letter-spacing: 1px;
+        padding-left: 20px;
+      }
+
+
+
+      .biglogo {
+        margin: 0px;
+        padding-bottom: 300px;
+      }
+    }
+
+    .toptext {
+      font-size: 55px;
+      font-weight: bolder;
+      width: 100%;
+      padding-left: 30px;
+      text-align: left;
+      margin: 0px;
+      padding-top: 30px;
+    }
+
+    p {
+      width: 100%;
+      padding-left: 500px;
+      display: flex;
+      flex: 1 1 auto;
+      font-weight: 200;
+      font-size: 26px;
+      color: #000;
+      font-family: 'Nunito', serif;
+
+    }
+
+    .role {
+      font-family: 'muli', 'serif';
+      font-weight: bold;
+      text-align: left;
+      padding-left: 600px;
+
+
+    }
+
+
+  }
+
+  .slide-img {
+    width: 23%;
+
+    .bm-img {
+      width: 330px;
+    }
   }
 }

@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
-@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900');
-.brewmetrics {
-  font-family: 'Arvo', serif;
-  background-color: #f0ba23;
+
+
+.ponder {
+  font-family: 'helvetica', serif;
+  background-color: #fff;
   height: 450px;
   width: 100%;
+  max-width: 1200px;
   position: relative;
   display: flex;
   margin: 0 auto;
@@ -25,40 +26,33 @@
       margin-left: 40px;
 
 
-      .brew-logo {
-        height: 100px;
-        width: 100px;
-      }
-
       .title {
         font-size: 60px;
         margin: 0;
         color: #000;
         letter-spacing: 12px;
-        padding-left: 20px;
+        padding-left: 52px;
       }
     }
 
 
 
     p {
-      width: 75%;
-      padding-left: 100px;
+      width: 90%;
+      padding-left: 90px;
       display: flex;
       flex: 1 1 auto;
       font-weight: 200;
-      font-size: 28px;
-      color: #fff;
-      font-family: 'helvetica', 'sans-serif'
+      font-size: 36px;
+      color: #000;
+      padding-top: 20px;
     }
-
     .role {
+      font-size: 25px;
       font-family: 'muli', 'serif';
       font-weight: bold;
-      font-size: 28px;
+      padding-top: 90px;
       padding-right: 400px;
-      padding-top: 80px;
-      width: 80%;
     }
   }
 
@@ -66,7 +60,7 @@
     width: 23%;
 
     .bm-img {
-      width: 275px;
+      width: 250px;
     }
   }
 }

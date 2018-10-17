@@ -15,7 +15,7 @@ export default class Header extends Component {
         <ul className='menu'>
           <li><Link to='/about'>ABOUT</Link></li>
           <li><Link to='/work'>WORK</Link></li>
-          <li><Link to='/'>CONTACT</Link></li>
+          <li><Link to='/contact'>CONTACT</Link></li>
         </ul>
 
       </div>
