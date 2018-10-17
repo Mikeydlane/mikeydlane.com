@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 
+import WorkDetails from '../WorkDetails';
 import BrewMetrics from '../BrewMetrics';
 import Upright from '../Upright';
 import Treble from '../Treble';
@@ -12,9 +13,20 @@ import './styles.scss';
 export default class Work extends Component {
   constructor(props) {
     super();
+    this.slides = [
+      'BrewMetrics',
+      'Upright',
+      'Treble',
+      'Ponder'
+    ]
     this.state = {
-      sliderInitialized: false
+      sliderInitialized: false,
+      currentSlide: 'BrewMetrics'
     }
+  }
+
+  setCurrentSlide = (i) => {
+    this.setState({ currentSlide: this.slides[i] })
   }
 
   initSlider = (slider) => {
@@ -44,7 +56,8 @@ export default class Work extends Component {
       cssEase: "ease-in-out",
       speed: 1000,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      afterChange: this.setCurrentSlide,
     };
 
     return (
@@ -56,6 +69,9 @@ export default class Work extends Component {
           <Ponder />
         </Slider>
         {this.renderControls()}
+
+        <WorkDetails component={this.state.currentSlide} />
+
       </div>
     );
   }
