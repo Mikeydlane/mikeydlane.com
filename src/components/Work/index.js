@@ -29,6 +29,16 @@ export default class Work extends Component {
     this.setState({ currentSlide: this.slides[i] })
   }
 
+  startAnimation = () => {
+    setTimeout(() => {
+      this._sliderContainer.classList.add('fade-in')
+      this._sliderContainer.classList.remove('fade-in')
+      this._sliderContainer.classList.remove('fade-out')
+    }, 1100);
+    this._sliderContainer.classList.add('fade-out')
+
+  }
+
   initSlider = (slider) => {
     this._slider = slider;
     this.setState({ sliderInitialized: true })
@@ -58,6 +68,7 @@ export default class Work extends Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       afterChange: this.setCurrentSlide,
+      beforeChange: this.startAnimation,
     };
 
     return (
@@ -70,7 +81,9 @@ export default class Work extends Component {
         </Slider>
         {this.renderControls()}
 
-        <WorkDetails component={this.state.currentSlide} />
+        <div  ref={(el) => this._sliderContainer = el}>
+          <WorkDetails component={this.state.currentSlide} />
+        </div>
 
       </div>
     );
