@@ -8,18 +8,9 @@ export default class Ponder extends Component {
     return (
       <div className='ponder-w'>
         <div className='container'>
-          <div className='slide-info'>
-            <div className='logo'>
-              <h2 className='title'>PONDER</h2>
-            </div>
-
-            <p>Designed to give full time students a break from the pressures of school.</p>
-            <p className="role">UX/UI DESIGNER / RESEARCH / TEAM PROJECT</p>
-          </div>
-
-          <div className='slide-img'>
-            <img src='/Ponder81.png' className='bm-img' />
-          </div>
+          <img src='icon1-p.png' className='icon-p-1' />
+          <img src='icon2-p.png' className='icon-p' />
+          <img src='icon-3-p.png' className='icon-p' />
         </div>
 
       </div>
