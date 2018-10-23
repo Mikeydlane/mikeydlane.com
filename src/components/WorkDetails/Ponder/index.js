@@ -6,7 +6,7 @@ import './styles.scss';
 export default class Ponder extends Component {
   render() {
     return (
-      <div className='ponder'>
+      <div className='ponder-w'>
         <div className='container'>
           <div className='slide-info'>
             <div className='logo'>

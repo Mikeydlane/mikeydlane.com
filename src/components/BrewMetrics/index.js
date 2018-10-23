@@ -10,8 +10,9 @@ export default class BrewMetrics extends Component {
         <div className='container'>
           <div className='slide-info'>
             <div className='logo'>
-              <img src='/BrewLogoBlack.png' className='brew-logo' />
-              <h2 className='title'>Brewmetrics</h2>
+
+              <img src='/Brew-logo.png' className='brew-logo' />
+
             </div>
 
             <p>Keep track of the beer you’ve had, what your buddies are drinking, and how much you’ve all drank.</p>
