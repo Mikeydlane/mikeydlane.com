@@ -1,4 +1,6 @@
-
+.big-wrap {
+ width: 1200px;
+}
 
 .ponder-w {
   font-family: 'helvetica', serif;
@@ -18,6 +20,15 @@
     flex: 1 1 auto;
     flex-direction: column;
   }
+
+  .container-p {
+    display: flex;
+    padding: 25px 50px;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+
+
 
   .slide-info {
     width: 65%;
@@ -81,6 +92,7 @@
     align-items: center;
     justify-content: center;
 
+
     p {
       max-width: 150px;
       text-align: center;
@@ -98,5 +110,17 @@
 
   }
 
-
 }
+ .container-p {
+   width: 90px;
+}
+
+
+ .aff-img{
+   padding: 10px;
+   width: 100%;
+ }
+
+ .affinity {
+   max-width: 100%;
+ }

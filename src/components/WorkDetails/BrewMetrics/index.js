@@ -21,7 +21,7 @@ export default class BrewMetrics extends Component {
               </div>
 
             <div className='slide-img'>
-              <img src='/Brewmetrics_iPhoneX1.png' className='bm-img' />
+              <img src='/brew-com.png' className='bm-img' />
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default class BrewMetrics extends Component {
               </div>
 
             <div className='slide-img'>
-              <img src='/Brewmetrics_iPhoneX1.png' className='bm-img' />
+              <img src='/drinking-buds.png' className='bm-img' />
             </div>
           </div>
         </div>
@@ -57,7 +57,25 @@ export default class BrewMetrics extends Component {
               </div>
 
             <div className='slide-img'>
-              <img src='/Brewmetrics_iPhoneX1.png' className='bm-img' />
+              <img src='/metrics.png' className='bm-img' />
+            </div>
+          </div>
+        </div>
+        <div className='brewmetrics-w'>
+          <div className='container'>
+            <div className='slide-info'>
+              <div className='logo'>
+                <h2 className='title'>Mapping and Location</h2>
+              </div>
+
+                <p>See where and what you've had at your favorite locatons.</p>
+
+                <p>Keep track of where your friends are drinking.</p>
+
+              </div>
+
+            <div className='slide-img'>
+              <img src='/brew-maps.png' className='bm-img' />
             </div>
           </div>
         </div>

@@ -45,6 +45,14 @@
     font-size: 44px;
     padding: 0;
     color: #fff;
+  }
+
+  p {
+    padding-left: 60px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
 
   }
 
@@ -61,6 +69,8 @@
 
   .slide-info {
     width: 65%;
+
+
 
     .logo {
       display: flex;
@@ -81,7 +91,7 @@
         font-size: 70px;
         font-weight: 900;
         margin: 0;
-        color: #000;
+        color: #fff;
         letter-spacing: 1px;
         padding-left: 20px;
       }

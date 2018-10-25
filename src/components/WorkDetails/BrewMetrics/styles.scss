@@ -3,17 +3,18 @@
 .brewmetrics-w {
   font-family: 'helvetica', serif;
   background-color: #fff;
-  height: 450px;
+  height: 560px;
   width: 100%;
   position: relative;
   display: flex;
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 140px;
 
 
   .container {
     display: flex;
     padding: 25px 50px;
+
   }
 
   .containerReverse {
@@ -44,6 +45,7 @@
         color: #f0ba23;
         padding-left: 57px;
         font-family: 'helvetica';
+        padding-top: 80px;
       }
     }
 
@@ -57,7 +59,8 @@
       font-weight: 400;
       font-size: 28px;
       color: #000;
-      font-family: 'helvetica', 'sans-serif'
+      font-family: 'helvetica', 'sans-serif';
+
     }
 
     .role {

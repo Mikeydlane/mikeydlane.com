@@ -62,6 +62,11 @@
       font-size: 20px;
       color: #000;
       text-decoration: none;
+      &:hover {
+        color: #BD2D25;
+        font-weight: 600;
+      }
+
     }
   }
 }

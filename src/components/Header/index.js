@@ -10,12 +10,14 @@ export default class Header extends Component {
           <h1 className='logo'><Link to="/Contact">MICHAEL LANE</Link></h1>
           <h3 className='logo-sub'>WEB DEVELOPER</h3>
           <h3 className="logo-sub-sub">UX/UI DESIGNER</h3>
+
+
         </div>
 
         <ul className='menu'>
           <li><Link to='/about'>ABOUT</Link></li>
           <li><Link to='/work'>WORK</Link></li>
-          <li><Link to='/contact'>CONTACT</Link></li>
+          <li><Link to='/email'>CONTACT</Link></li>
         </ul>
 
       </div>

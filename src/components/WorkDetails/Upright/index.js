@@ -11,6 +11,7 @@ export default class Upright extends Component {
         <div className='container'>
           <div className='slide-info'>
             <div className='content1'>
+
               <div className='row1'>
                 <h1>Project Goals</h1>
                 <ul className= 'upright-list'>
@@ -86,9 +87,19 @@ export default class Upright extends Component {
         </div>
       </div>
       <div className='upright-w'>
+
+          <div className='slide-info'>
+
+            <div className='content3'>
+
+                <img src='/Profile-full-mail.png' className='profpic1' />
+            </div>
+         </div>
+      </div>
+      <div className='upright-w'>
           <div className='slide-info'>
             <div className='content3'>
-                <img src='/Profile-fullx2.png' className='profpic1' />
+                <img src='/up-msg.png' className='profpic1' />
             </div>
          </div>
       </div>

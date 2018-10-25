@@ -6,6 +6,7 @@ import './styles.scss';
 export default class Ponder extends Component {
   render() {
     return (
+      <div className='big-wrap'>
       <div className='ponder-w'>
         <div className='container'>
           <h1>Project Goals</h1>
@@ -24,6 +25,50 @@ export default class Ponder extends Component {
             </div>
           </div>
         </div>
+        </div>
+          <div className='ponder-w'>
+            <div className='container-p'>
+              <h1>Research Findings</h1>
+              <p>After we conducted 8 field interviews with current and former coding and design students we created an affinity map of our findings.</p>
+              <div className='aff-img'>
+
+              </div>
+            </div>
+          </div>
+          <div className='ponder-w'>
+            <div className='container-p'>
+              <h1>Research Trends - Inspiration</h1>
+              <p>From our research findings, we noticed that people drew inspiration from everywhere. Many emphasized the importance of everyday experiences and being in the moment. Some were inspired by their surroundings and travels.</p>
+              <div className='aff-img'>
+                <img src='trends.png' className='affintiy' />
+              </div>
+            </div>
+          </div>
+          <div className='ponder-w'>
+            <div className='container-p'>
+              <h1>Research Trends - Energy</h1>
+              <p>Besides using caffeine to recover when they felt low energy, some would also take walks to clear their head. Several pushed past stress by breaking overwhelming tasks into smaller pieces</p>
+              <div className='aff-img'>
+                <img src='research.png' className='affintiy' />
+              </div>
+            </div>
+          </div>
+          <div className='ponder-w'>
+            <div className='container-p'>
+              <h1>Research Trends - Relax</h1>
+              <p>Going for a walk was a popular method for escaping and clearing their heads. Most people needed me time to recharge and/or concentrate. Many were mindful that they need to give themselves breaks.</p>
+              <div className='aff-img'>
+                <img src='trends3.png' className='affintiy' />
+              </div>
+            </div>
+          </div>
+          <div className='ponder-w'>
+            <div className='container-p'>
+              <div className='aff-img'>
+                <img src='image-wall.jpg' className='affintiy' />
+              </div>
+            </div>
+          </div>
       </div>
     );
   }
