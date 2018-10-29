@@ -112,15 +112,34 @@
 
 }
  .container-p {
-   width: 90px;
+   width: 100px;
+   height: 600px;
 }
 
 
  .aff-img{
-   padding: 10px;
    width: 100%;
  }
 
  .affinity {
-   max-width: 100%;
+   width: 100%;
+ }
+
+ .prog {
+   width: 100%;
+   padding: 0px;
+ }
+
+ .process {
+   padding: 0px;
+ }
+
+ .client-p {
+   font-size: 27px;
+   font-family: 'helvetica', 'serif';
+ }
+
+ .aff-map {
+   width: 100%;
+
  }

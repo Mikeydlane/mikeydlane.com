@@ -7,6 +7,11 @@ export default class BrewMetrics extends Component {
   render() {
     return (
       <div className='big-wrap'>
+        <div className='client-b'>
+          <p>Client | Brewmetrics(Co-Founder)</p>
+          <p>Project Duration | 1 Year / Ongoing</p>
+          <p>Download | Google Play Store</p>
+        </div>
         <div className='brewmetrics-w'>
           <div className='containerReverse'>
             <div className='slide-info'>
@@ -65,7 +70,7 @@ export default class BrewMetrics extends Component {
           <div className='container'>
             <div className='slide-info'>
               <div className='logo'>
-                <h2 className='title'>Mapping and Location</h2>
+                <h2 className='title'>Map Your Favorite Locations</h2>
               </div>
 
                 <p>See where and what you've had at your favorite locatons.</p>
@@ -79,6 +84,7 @@ export default class BrewMetrics extends Component {
             </div>
           </div>
         </div>
+
       </div>
     );
   }

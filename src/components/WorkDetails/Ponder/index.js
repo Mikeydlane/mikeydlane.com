@@ -7,6 +7,11 @@ export default class Ponder extends Component {
   render() {
     return (
       <div className='big-wrap'>
+        <div className='client-p'>
+          <p>Client | NYCDA Group Project</p>
+          <p>Project Duration | 3 Weeks</p>
+          <p>Clickable Prototype | InVision</p>
+        </div>
       <div className='ponder-w'>
         <div className='container'>
           <h1>Project Goals</h1>
@@ -31,7 +36,7 @@ export default class Ponder extends Component {
               <h1>Research Findings</h1>
               <p>After we conducted 8 field interviews with current and former coding and design students we created an affinity map of our findings.</p>
               <div className='aff-img'>
-
+                <img src='research1-p.png' className='aff-map' />
               </div>
             </div>
           </div>
@@ -65,7 +70,23 @@ export default class Ponder extends Component {
           <div className='ponder-w'>
             <div className='container-p'>
               <div className='aff-img'>
-                <img src='image-wall.jpg' className='affintiy' />
+
+              </div>
+            </div>
+          </div>
+          <div className='ponder-w'>
+            <div className='container-p'>
+              <div className='process'>
+                <h1>Map Feature - Design Process</h1>
+                <img src='./map-prog2.png' className='prog' />
+              </div>
+            </div>
+          </div>
+          <div className='ponder-w'>
+            <div className='container-p'>
+              <div className='process'>
+                <h1>Draw Feature - Design Process</h1>
+                <img src='./draw-prog1.png' className='prog' />
               </div>
             </div>
           </div>

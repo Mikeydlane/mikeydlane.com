@@ -4,7 +4,7 @@
 .treble-w {
   font-family: 'Muli', serif;
   background-color: #EE0521;
-  height: 2450px;
+  height: 4450px;
   width: 100%;
   max-width: 2000px;
   position: relative;
@@ -45,6 +45,15 @@
     font-size: 44px;
     padding: 0;
     color: #fff;
+    font-weight: 900;
+  }
+
+    .sub-head-treb {
+    font-family: 'Muli';
+    font-size: 34px;
+    padding: 0;
+    color: #fff;
+    font-weight: 700;
   }
 
   p {
@@ -61,6 +70,7 @@
      list-style: none;
      padding-bottom: 30px;
      font-family: 'Muli';
+     color: #fff;
    }
 
    ul {
@@ -169,4 +179,32 @@
 
 .prof1 {
  width: 100%;
+}
+
+.client-t {
+  font-size: 27px;
+  font-family: 'Muli', 'serif'
+}
+
+.c-b {
+  display: flex;
+  margin-top: 60px;
+
+  .title2 {
+    flex-direction: column;
+  }
+}
+
+.brief {
+  width: 89%;
+}
+
+.plan {
+  width: 89%;
+}
+
+.creative {
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
 }

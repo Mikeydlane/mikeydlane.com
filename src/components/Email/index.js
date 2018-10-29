@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './styles.css';
+import Footer from '../Footer';
+
 
 class Email extends Component {
   render() {
@@ -11,6 +13,7 @@ class Email extends Component {
           <textarea className="textbox" name="message" placeholder="YOUR MESSAGE"></textarea>
           <button className="sub-btn" type="submit">SEND</button>
         </form>
+        <Footer />
       </div>
     );
   }
