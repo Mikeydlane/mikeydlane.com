@@ -1,7 +1,6 @@
 .about {
   background-color: #fff;
   padding: 55px;
-  height: 500px;
   width: 91%;
   display: flex;
   flex-direction: row;
@@ -38,4 +37,11 @@
   background-size: cover;
   height: 800px;
 
+}
+
+.about-wrap {
+  margin: 0 auto;
+}
+
+.about-footer {
 }

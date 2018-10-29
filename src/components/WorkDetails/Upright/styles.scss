@@ -5,15 +5,12 @@
 .upright-w {
   font-family: 'Nunito', serif;
   background-color: #fff;
-  height: 540px;
   width: 100%;
   max-width: 12000px;
   position: relative;
   display: flex;
   margin: 0 auto;
   padding: 30px;
-  margin-top: 150px;
-
 
   .container {
     display: flex;
@@ -160,5 +157,14 @@
 .h1-proto {
   color: #ff655a;
   font-size: 43px;
-  margin-bottom: -90px;
+  margin-left: 30px;
+}
+
+.padTop {
+  margin: 35px;
+}
+
+.u-footer {
+  height: 100px;
+  background-color: #ff655a;
 }

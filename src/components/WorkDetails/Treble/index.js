@@ -97,6 +97,10 @@ export default class Treble extends Component {
           </div>
         </div>
       </div>
+
+      <div className='t-footer'>
+
+      </div>
     </div>
     );
   }

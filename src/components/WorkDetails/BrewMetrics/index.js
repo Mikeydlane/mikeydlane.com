@@ -84,6 +84,12 @@ export default class BrewMetrics extends Component {
             </div>
           </div>
         </div>
+        <div className='bm-footer'>
+          <h3>Beta test on Andriod, iOS coming soon</h3>
+          <a href='https://play.google.com/apps/testing/com.brewmetrics'>
+            <img src='/PlayStore.png' className='playstore' />
+          </a>
+        </div>
 
       </div>
     );

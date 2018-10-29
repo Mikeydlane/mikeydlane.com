@@ -36,7 +36,7 @@ export default class Upright extends Component {
             </div>
           </div>
         </div>
-        <div className='upright-w'>
+        <div className='upright-w padTop'>
           <div className='container'>
             <div className='slide-info'>
               <div className='content1'>
@@ -54,7 +54,7 @@ export default class Upright extends Component {
             </div>
           </div>
         </div>
-        <div className='upright-w'>
+        <div className='upright-w padTop'>
           <div className='container'>
             <div className='slide-info'>
               <div className='content1'>
@@ -72,7 +72,7 @@ export default class Upright extends Component {
             </div>
           </div>
         </div>
-        <div className='upright-w'>
+        <div className='upright-w padTop'>
           <div className='container'>
             <div className='slide-info'>
               <div className='content1'>
@@ -92,20 +92,23 @@ export default class Upright extends Component {
           </div>
         </div>
         <h1 className='h1-proto'>Prototype:</h1>
-        <div className='upright-w'>
-
+        <div className='upright-w padTop'>
             <div className='slide-info'>
               <div className='content3'>
                   <img src='/Profile-full-mail.png' className='profpic1' />
               </div>
            </div>
         </div>
-        <div className='upright-w'>
+        <div className='upright-w padTop'>
             <div className='slide-info'>
               <div className='content3'>
                   <img src='/up-msg.png' className='profpic1' />
               </div>
            </div>
+        </div>
+
+        <div className='u-footer'>
+
         </div>
 
     </div>

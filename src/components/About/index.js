@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './styles.scss';
 import Resume from '../Resume/Resume';
-
+import Footer from '../Footer';
 
 
 export default class About extends Component {
@@ -20,8 +20,10 @@ export default class About extends Component {
           </div>
         </div>
         <div className='about2'>
-        <Resume />
-
+          <Resume />
+          <div className='about-footer'>
+            <Footer />
+          </div>
         </div>
       </div>
     );

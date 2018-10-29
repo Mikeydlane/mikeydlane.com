@@ -5,13 +5,12 @@
 .ponder-w {
   font-family: 'helvetica', serif;
   background-color: #fff;
-  height: 450px;
   width: 100%;
   max-width: 1200px;
   position: relative;
   display: flex;
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 50px;
 
 
   .container {
@@ -143,3 +142,8 @@
    width: 100%;
 
  }
+
+.p-footer {
+  height: 100px;
+  background-color: #444;
+}

@@ -67,13 +67,7 @@ export default class Ponder extends Component {
               </div>
             </div>
           </div>
-          <div className='ponder-w'>
-            <div className='container-p'>
-              <div className='aff-img'>
 
-              </div>
-            </div>
-          </div>
           <div className='ponder-w'>
             <div className='container-p'>
               <div className='process'>
@@ -90,6 +84,9 @@ export default class Ponder extends Component {
               </div>
             </div>
           </div>
+        <div className='p-footer'>
+
+        </div>
       </div>
     );
   }
