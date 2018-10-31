@@ -8,9 +8,9 @@ export default class BrewMetrics extends Component {
     return (
       <div className='big-wrap'>
         <div className='client-b'>
-          <p>Client | Brewmetrics(Co-Founder)</p>
-          <p>Project Duration | 1 Year / Ongoing</p>
-          <p>Download | Google Play Store</p>
+          <p>Client | Brewmetrics (Co-Founder)</p>
+          <p>Project Duration | 1 Year/Ongoing</p>
+          <p>Download | <a target="_blank" href='https://play.google.com/apps/testing/com.brewmetrics'>Google Play Store</a></p>
         </div>
         <div className='brewmetrics-w'>
           <div className='containerReverse'>
@@ -85,7 +85,7 @@ export default class BrewMetrics extends Component {
           </div>
         </div>
         <div className='bm-footer'>
-          <h3>Beta test on Andriod, iOS coming soon</h3>
+          <h3>Beta test on Andriod, iOS coming soon | Built in React Native</h3>
           <a href='https://play.google.com/apps/testing/com.brewmetrics'>
             <img src='/PlayStore.png' className='playstore' />
           </a>

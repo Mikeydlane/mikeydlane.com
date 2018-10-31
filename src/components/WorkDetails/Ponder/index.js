@@ -10,7 +10,7 @@ export default class Ponder extends Component {
         <div className='client-p'>
           <p>Client | NYCDA Group Project</p>
           <p>Project Duration | 3 Weeks</p>
-          <p>Clickable Prototype | InVision</p>
+          <p>Clickable Prototype | <a target="_blank" href='https://invis.io/T2NH2XSQC36'>InVision</a></p>
         </div>
       <div className='ponder-w'>
         <div className='container'>
@@ -72,6 +72,7 @@ export default class Ponder extends Component {
             <div className='container-p'>
               <div className='process'>
                 <h1>Map Feature - Design Process</h1>
+                <p>Paper Sketch > Wireframe > Prototype</p>
                 <img src='./map-prog2.png' className='prog' />
               </div>
             </div>
@@ -80,12 +81,28 @@ export default class Ponder extends Component {
             <div className='container-p'>
               <div className='process'>
                 <h1>Draw Feature - Design Process</h1>
+                <p>Paper Sketch > Wireframe > Prototype</p>
                 <img src='./draw-prog1.png' className='prog' />
               </div>
             </div>
           </div>
+          <div className='ponder-w height700' >
+            <div className='container-p'>
+              <div className='process1'>
+                <h1>Usability Test Findings</h1>
+                <p>This is what we gathered from our tests. We ranked them by tiers based on the severity of the problem.</p>
+                <img src='./image7.png' className='ut' />
+              </div>
+            </div>
+          </div>
         <div className='p-footer'>
-
+        <h2 className='mikey'> © Michael Lane | Built in React.js</h2>
+          <div className="icons">
+            <a target="_gitHub" href="https://github.com/Mikeydlane"><img className="footer-icon" src='./git-w.png' /></a>
+            <a target="_linkedIn" href="https://www.linkedin.com/in/mikeydlane/"><img className="footer-icon" src='./shape-w.png' /></a>
+            <a target="_email" href="mailto:mikeyd.lane@gmail.com"><img className="footer-icon" src='/closed-w.svg' /></a>
+            <a target="_phone" href="tel:7185931737"><img className="footer-icon" src='./phone-w.png' /></a>
+          </div>
         </div>
       </div>
     );

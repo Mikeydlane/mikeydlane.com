@@ -83,7 +83,18 @@
 }
 .client-b {
   font-size: 27px;
-  font-family: 'helvetica', 'serif'
+  font-family: 'helvetica', 'serif';
+
+  a {
+    text-decoration: none;
+    color: #000000;
+
+    &:hover {
+      color: #f0ba23;
+
+    }
+
+  }
 }
 
 
@@ -99,6 +110,8 @@
   h3 {
     text-align: center;
     padding: 15px;
+    font-weight: 400;
+    margin-left: 15px;
   }
 }
 

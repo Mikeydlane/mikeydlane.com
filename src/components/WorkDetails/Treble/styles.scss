@@ -4,7 +4,7 @@
 .treble-w {
   font-family: 'Muli', serif;
   background-color: #EE0521;
-  height: 4450px;
+  height: 4350px;
   width: 100%;
   max-width: 2000px;
   position: relative;
@@ -184,7 +184,17 @@
 
 .client-t {
   font-size: 27px;
-  font-family: 'Muli', 'serif'
+  font-family: 'Muli', 'serif';
+
+  a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+      color: #206be1;
+
+    }
+
+  }
 }
 
 .c-b {
@@ -211,11 +221,27 @@
 }
 
 .PROTOTYPE {
-  margin-bottom: 60px;
+  margin-bottom: 90px;
 }
 
 .t-footer {
   margin-top: 10px;
   background-color: #206be1;
   height: 100px;
+  margin: 50px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    text-align: center;
+    padding: 15px;
+    font-weight: 400;
+    margin-left: 15px;
+  }
+
+  .mikey {
+    color: #fff;
+  }
 }

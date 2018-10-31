@@ -7,9 +7,12 @@
 
   .control-left {
     position: absolute;
-    top: 100px;
+    top: 150px;
     left: 10px;
     opacity: 0.15;
+    img {
+      height: 100px;
+    }
 
 
     &:hover {
@@ -24,10 +27,12 @@
 
   .control-right {
     position: absolute;
-    top: 100px;
+    top: 150px;
     right: 10px;
     opacity: 0.15;
-
+    img {
+      height: 100px;
+    }
 
     &:hover {
       opacity: .6;

@@ -7,7 +7,7 @@ export default class Header extends Component {
     return (
       <div className='header'>
         <div className='logo-container'>
-          <h1 className='logo'><Link to="/Contact">MICHAEL LANE</Link></h1>
+          <h1 className='logo'><Link to="/about">MICHAEL LANE</Link></h1>
           <h3 className='logo-sub'>WEB DEVELOPER</h3>
           <h3 className="logo-sub-sub">UX/UI DESIGNER</h3>
 

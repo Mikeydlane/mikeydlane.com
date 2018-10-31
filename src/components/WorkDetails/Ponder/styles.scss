@@ -133,9 +133,24 @@
    padding: 0px;
  }
 
+ .process1 {
+   padding: 0px;
+   margin-bottom: 50px;
+ }
+
  .client-p {
    font-size: 27px;
    font-family: 'helvetica', 'serif';
+
+   a {
+     text-decoration: none;
+     color: #000;
+     &:hover {
+       color: #206be1;
+
+     }
+
+   }
  }
 
  .aff-map {
@@ -143,7 +158,25 @@
 
  }
 
+ .ut {
+   width: 100%;
+
+ }
+
 .p-footer {
   height: 100px;
   background-color: #444;
+  margin: 50px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .mikey {
+    color: #fff;
+  }
+}
+
+.height700 {
+  height: 700px;
 }
