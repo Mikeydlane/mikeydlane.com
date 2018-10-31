@@ -71,7 +71,7 @@ export default class Treble extends Component {
             </div>
             <div className='treb-row-2'>
               <div className='persona1'>
-                <img src='/Persona2zasha.png' className='prof1' />
+                <img src='/Persona2Zasha.png' className='prof1' />
               </div>
             </div>
           </div>
@@ -102,7 +102,7 @@ export default class Treble extends Component {
         <h2 className='mikey'> © Michael Lane | Built in React.js</h2>
         <div className="icons">
           <a target="_gitHub" href="https://github.com/Mikeydlane"><img className="footer-icon" src='./git-w.png' /></a>
-          <a target="_linkedIn" href="https://www.linkedin.com/in/mikeydlane/"><img className="footer-icon" src='./shape-w.png' /></a>
+          <a target="_linkedIn" href="https://www.linkedin.com/in/mikeydlane/"><img className="footer-icon" src='./Shape-w.png' /></a>
           <a target="_email" href="mailto:mikeyd.lane@gmail.com"><img className="footer-icon" src='./closed-w.svg' /></a>
           <a target="_phone" href="tel:7185931737"><img className="footer-icon" src='./phone-w.png' /></a>
         </div>
