@@ -1,0 +1,66 @@
+
+
+.ponder {
+  font-family: 'helvetica', serif;
+  background-color: #fff;
+  height: 450px;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+
+  .container {
+    display: flex;
+    padding: 25px 50px;
+  }
+
+  .slide-info {
+    width: 65%;
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      flex: 1 1 auto;
+      align-items: center;
+      margin-left: 40px;
+
+
+      .title {
+        font-size: 75px;
+        margin: 0;
+        color: #000;
+        letter-spacing: 12px;
+        padding-left: 52px;
+      }
+    }
+
+
+
+    p {
+      width: 90%;
+      padding-left: 90px;
+      display: flex;
+      flex: 1 1 auto;
+      font-weight: 200;
+      font-size: 36px;
+      color: #000;
+      padding-top: 20px;
+    }
+    .role {
+      font-size: 25px;
+      font-family: 'muli', 'serif';
+      font-weight: bold;
+      padding-top: 90px;
+      padding-right: 400px;
+    }
+  }
+
+  .slide-img {
+    width: 23%;
+
+    .bm-img {
+      width: 250px;
+    }
+  }
+}

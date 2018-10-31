@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 165px;
+
+}
+
+/* ===== LOGO ===== */
+
+.logo-container {
+  padding: 15px;
+  margin-left: 35px;
+
+
+}
+
+.logo {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 34.5px;
+
+}
+
+.logo a {
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.logo-sub {
+  font-size: 29.8px;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-sub-sub {
+  font-size: 27.1px;
+  font-weight: 200;
+  letter-spacing: 4.4px;
+  padding: 0;
+  margin: 0;
+}
+
+/* ===== MENU ===== */
+
+.menu {
+  padding-top: 10px;
+  padding-right: 25px;
+  list-style-type: none;
+
+  li {
+    float: left;
+    margin: 0 15px;
+
+    a {
+      font-weight: 400;
+      font-size: 20px;
+      color: #000;
+      text-decoration: none;
+      &:hover {
+        color: #BD2D25;
+        
+      }
+
+    }
+  }
+}

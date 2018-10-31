@@ -1,0 +1,61 @@
+.work {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+
+  .control-left {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    opacity: 0.15;
+    img {
+      height: 100px;
+    }
+
+
+    &:hover {
+      opacity: .6;
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: scale(0.8);
+    }
+  }
+
+  .control-right {
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    opacity: 0.15;
+    img {
+      height: 100px;
+    }
+
+    &:hover {
+      opacity: .6;
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: scale(0.8);
+    }
+  }
+
+  .slick-dots {
+    margin-bottom: 35px;
+  }
+
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 700ms
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 600ms
+}

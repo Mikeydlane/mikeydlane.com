@@ -1,0 +1,182 @@
+.big-wrap {
+ width: 1200px;
+}
+
+.ponder-w {
+  font-family: 'helvetica', serif;
+  background-color: #fff;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+
+
+  .container {
+    display: flex;
+    padding: 25px 50px;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+
+  .container-p {
+    display: flex;
+    padding: 25px 50px;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+
+
+
+  .slide-info {
+    width: 65%;
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      flex: 1 1 auto;
+      align-items: center;
+      margin-left: 40px;
+
+
+      .title {
+        font-size: 60px;
+        margin: 0;
+        color: #000;
+        letter-spacing: 12px;
+        padding-left: 52px;
+      }
+    }
+
+
+
+    p {
+      width: 90%;
+      padding-left: 90px;
+      display: flex;
+      flex: 1 1 auto;
+      font-weight: 200;
+      font-size: 36px;
+      color: #000;
+      padding-top: 20px;
+    }
+    .role {
+      font-size: 25px;
+      font-family: 'muli', 'serif';
+      font-weight: bold;
+      padding-top: 90px;
+      padding-right: 400px;
+    }
+  }
+
+  .slide-img {
+    width: 23%;
+
+    .bm-img {
+      width: 250px;
+    }
+  }
+
+  .icons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    p {
+      max-width: 150px;
+      text-align: center;
+    }
+  }
+
+  .icon-p {
+    height: 175px;
+    width: 175px;
+  }
+
+  .icon-p-1 {
+    height: 200px;
+    width: 200px;
+
+  }
+
+}
+ .container-p {
+   width: 100px;
+   height: 600px;
+}
+
+
+ .aff-img{
+   width: 100%;
+ }
+
+ .affinity {
+   width: 100%;
+ }
+
+ .prog {
+   width: 100%;
+   padding: 0px;
+ }
+
+ .process {
+   padding: 0px;
+ }
+
+ .process1 {
+   padding: 0px;
+   margin-bottom: 50px;
+ }
+
+ .client-p {
+   font-size: 27px;
+   font-family: 'helvetica', 'serif';
+
+   a {
+     text-decoration: none;
+     color: #000;
+     &:hover {
+       color: #206be1;
+
+     }
+
+   }
+ }
+
+ .aff-map {
+   width: 100%;
+
+ }
+
+ .ut {
+   width: 100%;
+
+ }
+
+.p-footer {
+  height: 100px;
+  background-color: #444;
+  margin: 50px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .mikey {
+    color: #fff;
+  }
+}
+
+.height700 {
+  height: 700px;
+}

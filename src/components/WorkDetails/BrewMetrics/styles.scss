@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900');
+.brewmetrics-w {
+  font-family: 'helvetica', serif;
+  background-color: #fff;
+  height: 560px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 140px;
+
+
+  .container {
+    display: flex;
+    padding: 25px 50px;
+
+  }
+
+  .containerReverse {
+    display: flex;
+    padding: 25px 50px;
+    flex-direction: row-reverse;
+  }
+
+  .slide-info {
+    width: 65%;
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      flex: 1 1 auto;
+      align-items: center;
+      margin-left: 40px;
+
+
+      .brew-logo {
+        height: 100px;
+        width: 100px;
+      }
+
+      .title {
+        font-size: 35px;
+        margin: 0;
+        color: #f0ba23;
+        padding-left: 57px;
+        font-family: 'helvetica';
+        padding-top: 80px;
+      }
+    }
+
+
+
+    p {
+      width: 80%;
+      padding-left: 100px;
+      display: flex;
+      flex: 1 1 auto;
+      font-weight: 400;
+      font-size: 28px;
+      color: #000;
+      font-family: 'helvetica', 'sans-serif';
+
+    }
+
+    .role {
+      font-family: 'helvetica', 'serif';
+      font-weight: bold;
+      font-size: 28px;
+      padding-right: 400px;
+      padding-top: 80px;
+      width: 80%;
+    }
+  }
+
+  .slide-img {
+    width: 23%;
+
+    .bm-img {
+      width: 275px;
+    }
+  }
+}
+.client-b {
+  font-size: 27px;
+  font-family: 'helvetica', 'serif';
+
+  a {
+    text-decoration: none;
+    color: #000000;
+
+    &:hover {
+      color: #f0ba23;
+
+    }
+
+  }
+}
+
+
+.bm-footer {
+  background-color: #f0ba23;
+  height: 100px;
+  margin: 50px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    text-align: center;
+    padding: 15px;
+    font-weight: 400;
+    margin-left: 15px;
+  }
+}
+
+.playstore {
+  width: 200px;
+}

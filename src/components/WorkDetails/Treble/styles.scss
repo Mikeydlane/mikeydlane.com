@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900');
+
+.treble-w {
+  font-family: 'Muli', serif;
+  background-color: #EE0521;
+  height: 4350px;
+  width: 100%;
+  max-width: 2000px;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 130px;
+  flex-direction: column;
+
+
+  .container {
+    display: flex;
+    padding: 25px 50px;
+  }
+
+  .content1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+
+  .row1 {
+    width: 50%;
+    padding: 0 10px;
+  }
+
+  .row2 {
+    width: 50%;
+    padding: 0 10px;
+  }
+
+   }
+
+   .content3 {
+     width: 90%;
+    }
+
+   h1 {
+    font-family: 'Muli';
+    font-size: 44px;
+    padding: 0;
+    color: #fff;
+    font-weight: 900;
+  }
+
+    .sub-head-treb {
+    font-family: 'Muli';
+    font-size: 34px;
+    padding: 0;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  p {
+    padding-left: 60px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+
+  }
+
+   li{
+     font-size: 20px;
+     list-style: none;
+     padding-bottom: 30px;
+     font-family: 'Muli';
+     color: #fff;
+   }
+
+   ul {
+     padding: 0px;
+   }
+
+  .slide-info {
+    width: 65%;
+
+
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      flex: 1 1 auto;
+      align-items: center;
+      margin-left: 40px;
+
+      .treble-logo {
+        height: 55px;
+        width: 60px;
+      }
+
+
+
+
+      .title {
+        font-size: 70px;
+        font-weight: 900;
+        margin: 0;
+        color: #fff;
+        letter-spacing: 1px;
+        padding-left: 20px;
+      }
+
+      .treblearnbttn {
+        margin-bottom: 50px;
+        text-align: left;
+      }
+
+      .biglogo {
+        margin: 0px;
+        padding-bottom: 300px;
+      }
+
+      .treble-list {
+        flex-direction: column;
+        padding: 20px;
+        margin-right: 65px;
+      }
+    }
+
+    .toptext {
+      font-size: 60px;
+      font-weight: bolder;
+      width: 100%;
+      padding-left: 300px;
+      text-align: right;
+      margin: 0px;
+    }
+
+    p {
+      width: 75%;
+      padding-left: 480px;
+      display: flex;
+      flex: 1 1 auto;
+      font-weight: 200;
+      font-size: 26px;
+      color: #fff;
+      text-align: right;
+
+    }
+
+    .role {
+      font-family: 'muli', 'serif';
+      font-weight: bold;
+      text-align: right;
+      padding-left: 650px;
+
+
+    }
+
+
+  }
+
+  .slide-img {
+    width: 23%;
+
+    .bm-img {
+      width: 330px;
+    }
+  }
+  .persona-treb {
+    font-size: 30px;
+    padding-left: 0px;
+  }
+}
+
+.treb-row-1 {
+  width: 30%;
+}
+
+.treb-row-2 {
+  width: 70%;
+}
+
+.prof1 {
+ width: 100%;
+}
+
+.client-t {
+  font-size: 27px;
+  font-family: 'Muli', 'serif';
+
+  a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+      color: #206be1;
+
+    }
+
+  }
+}
+
+.c-b {
+  display: flex;
+  margin-top: 60px;
+
+  .title2 {
+    flex-direction: column;
+  }
+}
+
+.brief {
+  width: 89%;
+}
+
+.plan {
+  width: 89%;
+}
+
+.creative {
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.PROTOTYPE {
+  margin-bottom: 90px;
+}
+
+.t-footer {
+  margin-top: 10px;
+  background-color: #206be1;
+  height: 100px;
+  margin: 50px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    text-align: center;
+    padding: 15px;
+    font-weight: 400;
+    margin-left: 15px;
+  }
+
+  .mikey {
+    color: #fff;
+  }
+}
