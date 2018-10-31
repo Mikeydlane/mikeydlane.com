@@ -86,6 +86,16 @@ export default class Ponder extends Component {
               </div>
             </div>
           </div>
+          <div className='ponder-w'>
+            <div className='container-p'>
+              <div className='process'>
+                <h1>Map Feature - Design Process</h1>
+                <p>Sketchapp Design - Map Feature</p>
+                <img src='./maps.png' className='prog' />
+              </div>
+            </div>
+          </div>
+
           <div className='ponder-w height700' >
             <div className='container-p'>
               <div className='process1'>
