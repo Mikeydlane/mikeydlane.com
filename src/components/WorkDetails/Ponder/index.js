@@ -91,7 +91,7 @@ export default class Ponder extends Component {
               <div className='process'>
                 <h1>Map Feature - Design Process</h1>
                 <p>Sketchapp Design - Map Feature</p>
-                <img src='./maps.png' className='prog' />
+                <img src='./mapsketch.png' className='prog' />
               </div>
             </div>
           </div>
