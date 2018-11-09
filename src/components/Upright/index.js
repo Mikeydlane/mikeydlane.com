@@ -10,7 +10,7 @@ export default class Upright extends Component {
         <div className='container'>
           <div className='slide-info'>
             <div className='logo'>
-              <img src='/uprightlogo2.png' className='upright-logo' />
+              <img src='/uprightlogo3.png' className='upright-logo' />
 
             </div>
             <p className='toptext'>Connecting new start ups with small job freelancers.</p>
