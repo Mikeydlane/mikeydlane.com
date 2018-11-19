@@ -16,7 +16,7 @@ export default class Treble extends Component {
           <div className='container'>
             <div className='content1'>
               <div className='row1'>
-                <h1>MY GOALS</h1>
+                <h1>MY ROLE</h1>
                 <ul className= 'treble-list'>
                   <li>Make a browser/web platform for Treble.fm</li>
                   <li>Take existing styles and concepts from their mobile app and apply them to this project</li>
