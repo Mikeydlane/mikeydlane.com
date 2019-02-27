@@ -108,7 +108,7 @@ export default class Upright extends Component {
         </div>
 
         <div className='u-footer'>
-          <h2 className='mikey'> © Michael Lane | Built in React.js</h2>
+          <h2 className='mikey'> © Michael Lane | Portfolio Built in React.js</h2>
           <div className="icons">
             <a target="_gitHub" href="https://github.com/Mikeydlane"><img className="footer-icon" src='./git-w.png' /></a>
             <a target="_linkedIn" href="https://www.linkedin.com/in/mikeydlane/"><img className="footer-icon" src='./Shape-w.png' /></a>
