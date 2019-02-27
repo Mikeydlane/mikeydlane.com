@@ -10,7 +10,7 @@ export default class BrewMetrics extends Component {
         <div className='client-b'>
           <p>Client | Brewmetrics (Co-Founder)</p>
           <p>Project Duration | 1 Year/Ongoing</p>
-          <p>Download | <a target="_blank" href='https://play.google.com/apps/testing/com.brewmetrics'>Google Play Store</a></p>
+          <p>Download | <a target="_blank" href='https://play.google.com/apps/testing/com.brewmetrics'>Google Play Store</a> <a target="_blank" href='https://itunes.apple.com/us/app/brewmetrics/id1390222577?mt=8'> / iTunes App Store</a></p>
         </div>
         <div className='brewmetrics-w'>
           <div className='containerReverse'>
@@ -21,7 +21,7 @@ export default class BrewMetrics extends Component {
 
                 <p>BrewMetrics measures the logistics of your beer drinking habits and the habits of your friends.</p>
 
-                <p>Update you beverages in real time and keep track of money spent, drinks had, and your current drunken status.</p>
+                <p>Update your beverages in real time and keep track of money spent, drinks had, and your current drunken status.</p>
 
               </div>
 
@@ -73,7 +73,7 @@ export default class BrewMetrics extends Component {
                 <h2 className='title'>Map Your Favorite Locations</h2>
               </div>
 
-                <p>See where and what you've had at your favorite locatons.</p>
+                <p>See where and what you've had at your favorite locations.</p>
 
                 <p>Keep track of where your friends are drinking.</p>
 
@@ -85,9 +85,12 @@ export default class BrewMetrics extends Component {
           </div>
         </div>
         <div className='bm-footer'>
-          <h3>Beta test on Andriod, iOS coming soon | Built in React Native</h3>
+          <h3>Get it on Google Play and App Store | Built in React Native</h3>
           <a href='https://play.google.com/apps/testing/com.brewmetrics'>
             <img src='/PlayStore.png' className='playstore' />
+          </a>
+          <a href='https://itunes.apple.com/us/app/brewmetrics/id1390222577?mt=8'>
+            <img src='/app-store.png' className='app-store' />
           </a>
         </div>
 
